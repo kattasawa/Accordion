@@ -2,3 +2,19 @@ html {
   background: #f2f1f4;
   color: #19171c;
 }
+
+/*.title {
+  background: 200px;
+  color: yellow
+  border: 1px, black
+}*/
+
+
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+}
