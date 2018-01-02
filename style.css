@@ -1,0 +1,51 @@
+html {
+  background: url(./web_hero2000x907.jpg) no-repeat center center fixed;
+  /*background-repeat: no-repeat;*/
+  height: 100%;
+  width: auto;
+
+}
+
+.description {
+  display: none;
+}
+
+.active + .description {
+  display: block;
+  padding: 20px;
+  border: 1px solid #f49f9f;
+  background: lightgrey;
+  opacity: 0.7;
+}
+
+.title {
+  padding: 20px;
+  border: 1px solid #ef6b6b;
+  background: #fff;
+  opacity: 0.68;
+  font-family: helvetica;
+  font-weight: 300;
+  color: #ef6b6b;
+}
+
+h1 {
+  padding: 20px;
+  /*border: 1px solid #ef6b6b;*/
+  background: #ef6b6b;
+  opacity: 0.68;
+  font-family: helvetica;
+  font-weight: 600;
+  color: #fff;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: 400;
+  color: #fff;
+}
+
+.accordion {
+height: auto;
+width: 700px;
+padding: 150px 650px 0 650px;
+}
